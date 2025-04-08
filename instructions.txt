@@ -1,0 +1,25 @@
+Getting started:
+
+1. Download all the files.
+
+2. run app.py
+
+3. It will say running on http:// .......
+
+4. Press command and click that link, it will give you the website you need for the second half of the CTF
+
+
+
+THIS IS HOW TO SOLVE THE CTF:
+
+1. find James Alvarez's facebook by looking up his name and filtering to provo, or filter to his work at chick fil a
+
+2. notice he posted his username in one of his post (james_alvarez33)
+
+3. go to the website provided in the CTF
+
+4. use SQLi to log into James's account 
+
+5. send sam_russell77 $20 and the flag will appear
+
+6. itc101{just1ce_f0r_s@m}
