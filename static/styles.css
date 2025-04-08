@@ -1,0 +1,239 @@
+/* styles.css */
+
+body {
+    background: #f0f4f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #ffffff;
+    padding: 2rem 3rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 320px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.message {
+    color: red;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 0.25rem;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+input {
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+input:focus {
+    border-color: #0077ff;
+    outline: none;
+}
+
+button {
+    background-color: #0077ff;
+    color: white;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #005dc1;
+}
+
+body {
+    background: #f0f4f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;   /* centers horizontally */
+    align-items: center;       /* centers vertically */
+    height: 100vh;             /* makes the body full screen height */
+    margin: 0;
+}
+
+
+/* styles.css */
+
+/* General styles */
+body {
+    background: #f0f4f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Profile container styling */
+.profile-container {
+    background-color: #ffffff;
+    padding: 2rem 3rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+/* Heading */
+h2 {
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+/* Profile information styling */
+.profile-info {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    color: #555;
+    text-align: left;
+}
+
+.profile-info p {
+    margin: 0.5rem 0;
+}
+
+/* Back link button */
+.back-link {
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    background-color: #0077ff;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.back-link:hover {
+    background-color: #005dc1;
+}
+
+
+
+/* styles.css */
+
+/* General styles */
+body {
+    background: #f0f4f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Profile container styling */
+.profile-container {
+    background-color: #ffffff;
+    padding: 2rem 3rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+/* Heading */
+h2 {
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+/* Bank Info */
+.bank-info {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    color: #555;
+    text-align: left;
+}
+
+/* Send Money Form */
+.send-money {
+    margin-bottom: 2rem;
+}
+
+.send-money form {
+    display: flex;
+    flex-direction: column;
+}
+
+.send-money label {
+    margin-bottom: 0.5rem;
+    color: #555;
+    font-size: 1rem;
+}
+
+.send-money input {
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.send-money button {
+    background-color: #0077ff;
+    color: white;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.send-money button:hover {
+    background-color: #005dc1;
+}
+
+/* Flag styling (appears when sending money to "sam_russell77") */
+.flag {
+    margin-top: 2rem;
+    background-color: #ffd700;
+    padding: 1rem;
+    border-radius: 6px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Back link button */
+.back-link {
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    background-color: #0077ff;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.back-link:hover {
+    background-color: #005dc1;
+}
