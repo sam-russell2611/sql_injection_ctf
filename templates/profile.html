@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bank Account - Profile</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="profile-container">
+        <h2>Welcome, {{ user[1] }}!</h2>
+        
+        <!-- Bank Info -->
+        <div class="bank-info">
+            <p><strong>Account Balance:</strong> ${{ user_balance }}</p>
+        </div>
+
+        <!-- Send Money Form -->
+        <div class="send-money">
+            <h3>Send Money</h3>
+            <form method="post">
+                <label for="recipient">Recipient Username:</label>
+                <input id="recipient" name="recipient" type="text" required />
+
+                <label for="amount">Amount:</label>
+                <input id="amount" name="amount" type="number" min="1" required />
+
+                <button type="submit">Send Money</button>
+            </form>
+        </div>
+
+        <!-- Flag display (appears when sending money to "sam_russell77") -->
+        {% if flag %}
+            <div class="flag">
+                <h3>Flag:</h3>
+                <p>{{ flag }}</p>
+            </div>
+        {% endif %}
+        
+        <a href="{{ url_for('index') }}" class="back-link">Back to Login</a>
+    </div>
+</body>
+</html>
